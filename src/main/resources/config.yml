@@ -1,0 +1,40 @@
+# Config file of the BuildFFA plugin.
+# Do not edit unless you know what you're doing.
+# For questions contact Development Team.
+
+prefix: "&c&lBuildFFA &8»"
+spawn: []
+
+# Database settings
+database:
+  settings:
+    host: "127.0.0.1:3306"
+    database-name: "core"
+    user: "root"
+    password: "password"
+
+settings:
+  join-messages: true # Set to true to use enable the join message and use the join message from the config.yml
+  join-message: "&8[&a&l+&8] &f%player%"
+  quit-messages: true # Set to true to use enable the quit message and use the quit message from the config.yml
+  quit-message: "&8[&c&l-&8] &f%player%"
+
+# Scoreboard settings
+scoreboard:
+  title: "&3&lSnor&b&llax &8| &fBuildFFA"
+  lines:
+    15: "&3"
+    14: "&6Informatie"
+    13: "ping: {ping}ms"
+    12: "coins: {coins}"
+    11: "level: {level}"
+    10: "xp: {xp} / {next_xp}"
+    9: "&2"
+    8: "&6Stats"
+    7: "kills: {kills}"
+    6: "deaths: {deaths}"
+    5: "kdr: {kdr}"
+    4: "killstreak: {killstreak}"
+    3: "best killstreak: {bestKillstreak}"
+    2: "&1"
+    1: "&7play.server.nl"

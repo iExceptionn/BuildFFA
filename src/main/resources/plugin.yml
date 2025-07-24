@@ -1,0 +1,9 @@
+name: BuildFFA-Core
+version: '${project.version}'
+main: me.iexception.buildffa.BuildFFA
+api-version: '1.21'
+author: iException
+commands:
+  buildffa:
+    aliases: [ffa, bffa, build]
+    description: [Main command]
