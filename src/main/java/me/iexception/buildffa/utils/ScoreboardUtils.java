@@ -67,7 +67,7 @@ public class ScoreboardUtils {
                     team.setSuffix(ChatUtils.format(suffix));
                 }
             }
-        }.runTaskTimer(BuildFFA.getInstance(), 0L, 20L); // Elke seconde update
+        }.runTaskTimer(BuildFFA.getInstance(), 0L, 20L);
     }
 
     public static boolean containsPlaceholders(String text) {

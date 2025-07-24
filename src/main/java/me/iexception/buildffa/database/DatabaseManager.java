@@ -20,7 +20,7 @@ public class DatabaseManager {
             statement.execute("CREATE TABLE IF NOT EXISTS `player_data` (" +
                     "`uuid` VARCHAR(36) NOT NULL, " +
                     "`name` VARCHAR(36) NOT NULL, " +
-                    "`first_joined` VARCHAR(36) NOT NULL, " +  // beter underscores dan streepjes
+                    "`first_joined` VARCHAR(36) NOT NULL, " +
                     "`last_joined` VARCHAR(36) NOT NULL, " +
                     "`kills` INT NOT NULL DEFAULT 0, " +
                     "`deaths` INT NOT NULL DEFAULT 0, " +
